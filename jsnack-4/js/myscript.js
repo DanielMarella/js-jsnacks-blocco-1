@@ -13,13 +13,10 @@ let sumNumber = 0;
 const numberArray=[];
 
 for (let i = 0; i < userNumber.length; i++){
-    
-    if (i < userNumber.length){
         numberArray.push(parseInt(userNumber[i]))
         console.log(numberArray);
         sumNumber += numberArray[i];
         console.log(sumNumber)
-    }
 }
 
 
